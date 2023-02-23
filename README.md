@@ -17,3 +17,6 @@ to see the state machine visually, follow the steps:
 3. If you have code lens enabled (this can be enabled using editor.codeLens setting), you'll also see 'Open Visual Editor' floating above each createMachine call.
 
 <img width="400px" src=./figs/fig.png>
+
+See the state machine on <a href="https://stately.ai/registry/editor/1552eb33-2c64-4664-a09f-fa8c0a2e17f0?machineId=f41b731d-deda-4ffd-b163-bca09df37501">stately.ai</a>
+
