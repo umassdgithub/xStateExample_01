@@ -16,4 +16,4 @@ to see the state machine visually, follow the steps:
 2. Once installed, you can run XState: Open Visual Editor from the command palette to open any machine at your cursor's location.
 3. If you have code lens enabled (this can be enabled using editor.codeLens setting), you'll also see 'Open Visual Editor' floating above each createMachine call.
 
-<img width="400px" src=./fig/fig.png>
+<img width="400px" src=./figs/fig.png>
