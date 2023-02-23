@@ -1,0 +1,105 @@
+.states{
+margin-top: 100px;
+  width: 300px;
+  height: 300px;
+  display: grid;
+  justify-content: space-around;
+  justify-items: center;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+  grid-template-areas: "q1 . q2"
+                        ". q3 ."
+                        "q4 . q5";
+}
+.main{
+  margin: 10px;
+  display:flex;justify-content: center;
+  align-items: center;
+}
+.format{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  background: rgb(235, 235, 235);
+  border: dashed 4px rgb(173, 173, 166);
+}
+.control{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+button {
+  width: 100px;
+  margin:20px;
+  background-color: #FFFFFF;
+  border: 0;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #111827;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 3rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover {
+  background-color: rgb(249,250,251);
+}
+
+button:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+button:focus-visible {
+  box-shadow: none;
+
+}
+.state{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  border: dashed 1px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.output{
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+.active{
+  background-color: rgb(231, 217, 233);
+  border: solid 5px rgb(201, 171, 171);
+}
+.q1{
+  grid-area: q1;
+}
+
+.q2{
+  grid-area: q2;
+}
+.q3{
+  grid-area: q3;
+}
+
+.q4{
+  grid-area: q4;
+}
+
+.q5{
+  grid-area: q5;
+}

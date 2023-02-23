@@ -1,2 +1,4 @@
-# xStateExample_01
- This is a simple example for CIS 264 State Machine - Week 6
+# Getting Started with the App
+
+This is a NodeJS - react app.
+
